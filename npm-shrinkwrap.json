@@ -214,7 +214,7 @@
     },
     "jwt-simple": {
       "version": "0.2.0",
-      "from": "jwt-simple@",
+      "from": "https://registry.npmjs.org/jwt-simple/-/jwt-simple-0.2.0.tgz",
       "resolved": "https://registry.npmjs.org/jwt-simple/-/jwt-simple-0.2.0.tgz"
     },
     "mongoose": {
@@ -324,42 +324,59 @@
     },
     "morgan": {
       "version": "1.4.1",
-      "from": "morgan@",
+      "from": "https://registry.npmjs.org/morgan/-/morgan-1.4.1.tgz",
       "resolved": "https://registry.npmjs.org/morgan/-/morgan-1.4.1.tgz",
       "dependencies": {
         "basic-auth": {
           "version": "1.0.0",
-          "from": "basic-auth@1.0.0",
+          "from": "https://registry.npmjs.org/basic-auth/-/basic-auth-1.0.0.tgz",
           "resolved": "https://registry.npmjs.org/basic-auth/-/basic-auth-1.0.0.tgz"
         },
         "debug": {
           "version": "2.1.0",
-          "from": "debug@~2.1.0",
+          "from": "https://registry.npmjs.org/debug/-/debug-2.1.0.tgz",
           "resolved": "https://registry.npmjs.org/debug/-/debug-2.1.0.tgz",
           "dependencies": {
             "ms": {
               "version": "0.6.2",
-              "from": "ms@0.6.2",
+              "from": "https://registry.npmjs.org/ms/-/ms-0.6.2.tgz",
               "resolved": "https://registry.npmjs.org/ms/-/ms-0.6.2.tgz"
             }
           }
         },
         "depd": {
           "version": "1.0.0",
-          "from": "depd@~1.0.0",
+          "from": "https://registry.npmjs.org/depd/-/depd-1.0.0.tgz",
           "resolved": "https://registry.npmjs.org/depd/-/depd-1.0.0.tgz"
         },
         "on-finished": {
           "version": "2.1.1",
-          "from": "on-finished@2.1.1",
+          "from": "https://registry.npmjs.org/on-finished/-/on-finished-2.1.1.tgz",
           "resolved": "https://registry.npmjs.org/on-finished/-/on-finished-2.1.1.tgz",
           "dependencies": {
             "ee-first": {
               "version": "1.1.0",
-              "from": "ee-first@1.1.0",
+              "from": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.0.tgz",
               "resolved": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.0.tgz"
             }
           }
+        }
+      }
+    },
+    "passport": {
+      "version": "0.2.1",
+      "from": "passport@",
+      "resolved": "https://registry.npmjs.org/passport/-/passport-0.2.1.tgz",
+      "dependencies": {
+        "passport-strategy": {
+          "version": "1.0.0",
+          "from": "passport-strategy@1.x.x",
+          "resolved": "https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz"
+        },
+        "pause": {
+          "version": "0.0.1",
+          "from": "pause@0.0.1",
+          "resolved": "https://registry.npmjs.org/pause/-/pause-0.0.1.tgz"
         }
       }
     }
